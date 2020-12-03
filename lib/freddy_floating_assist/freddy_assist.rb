@@ -1,6 +1,7 @@
 module FreddyFloatingAssist::FreddyAssist
-  HINTS = YAML.load_file("config/easter_eggs.yml").symbolize_keys!
-  NAVIGATORS = YAML.load_file("config/smart_navigation.yml").symbolize_keys!
+  GEM_ROOT = File.expand_path("../../..", __FILE__)
+  HINTS = YAML.load_file("#{GEM_ROOT}/config/easter_eggs.yml").symbolize_keys!
+  NAVIGATORS = YAML.load_file("#{GEM_ROOT}/config/smart_navigation.yml").symbolize_keys!
   # param1: product states product name
   # param2: key states the hints/easter eggs that needs to be pushed
   def self.easter_eggs(product, module_name)
