@@ -1,0 +1,45 @@
+freshservice:
+  requester:
+    - "Did you know? Requester can be part of Change Advisory Board (CAB)"
+    - "Did you know? Requester can have one or more departments associated"
+    - "Why creating requester one by one when you have an Import option?"
+    - "Mistakenly created a user as requester instead of agent, we have a option to upgrade!! Try convert a requester to agent"
+    - "Did you know? Requester can have one or more groups associated"
+    - "Fact: Requesters info can be edited by clicking pencil icon"
+  roles:
+    - "Wanted to create a new role, which is similar to existing role, Try cloning it"
+    - "Do you know? Roles & Permissions can be copied to sandbox account"
+    - "Bored of Default Roles, Try creating a Custom Role!"
+  user_fields:
+    - "Hey, You can edit or reorder any of the default fields for agents"
+    - "Do you know? Custom fields are applicable for both agents and requesters"
+    - "Worried that lables of default field cant be changed, we have an alternate solution try creating custom fields of your choice!"
+  departments:
+    - "Try adding members in department on bulk importing agents or requesters, instead of adding one by one"
+    - "Did you know? Requesters or Agents can have one or more departments associated"
+    - "Did you know? You can configure department in such a way by nominating head employee, who will take care of approving service requests from members in his team"
+    - "Did you know? You can also create separate knowledge base and forum categories for each of your departments that can be accessed only by the members of that team"
+  agents:
+    - "Do you know? Agents can be “Full-Time” or “Occasional”, But you need Day Passes for adding Occasional agent try purchasing one."
+    - "Wanted to create a new agent, which is similar to existing agents, Try cloning it to create a agent with similar roles and groups."
+    - "FYI, We support association of more than one role to agent"
+    - "Did you know? Agents can be part of more than one Change Advisory Board (CAB)"
+    - "Agent is on vacation for a while and need to remove him temporarily, try deactivating agent instead of forgetting"
+  groups:
+    - "Did you know? You can associate agents or requesters to more than one group"
+    - "Did you know? Agents can be added as Members or Observers in the group"
+    - "Tired of adding requesters manually to group, Try configuring rules to add requesters automatically when created"
+    - "FYI, We also allow you to configure requester groups to manually or automatically add requesters to group"
+  department_fields:
+    - "Want additional flexibility to customize departments try adding custom fields."
+  cab:
+    - "Requesters or Agents can associate to more than one Change Advisory Board (CAB)"
+    - "Fact: The Change Advisory Board (CAB) used by Change Managers"
+    - "Did you know? Members of the Change Advisory Board (CAB) will be notified by email and will be asked to approve or reject the change manually."
+  day_pass:
+    - "Did you know? You can purchase day passes (that are charged per day) for your occasional agents whenever required"
+    - "Fact: “Occasional agents“ login at irregular intervals to either monitor the task or when their involvement is required during a certain period, such as the supervisor or the visiting maintenance technician"
+  locations:
+    - "Try importing locations instead of creating one by one"
+    - "Did you know? Locations can be configured in parent-child hierarchy. For instance:- If your company operates out of multiple places,  you could have the country name at the top followed by the state, district and city."
+    - "Is your location missing? Try adding new Custom locations of your choice"
