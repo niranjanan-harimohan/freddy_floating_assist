@@ -3,43 +3,43 @@ freshservice:
     agents:
       name: "Agents"
       url: "/agents"
-      icon: "/images/admin-home/agent.svg"
+      icon: "/admin-home/agent.svg"
     requesters:
       name: "Requesters"
       url: "/itil/requesters/filter/all"
-      icon: "/images/admin-home/requesters.svg"
+      icon: "/admin-home/requesters.svg"
     business-hours:
       name: "Business Hours"
       url: "/admin/business_calendars"
-      icon: "/images/admin-home/business-hours.svg"
+      icon: "/admin-home/business-hours.svg"
     group:
       name: "Groups"
       url: "/groups"
-      icon: "/images/admin-home/group.svg"
+      icon: "/admin-home/group.svg"
     user-fields:
       name: "User Fields"
       url: "/admin/user_fields"
-      icon: "/images/admin-home/user-fields.svg"
+      icon: "/admin-home/user-fields.svg"
     roles:
       name: "Roles"
       url: "/admin/roles"
-      icon: "/images/admin-home/role.svg"
+      icon: "/admin-home/role.svg"
     departments:
       name: "Departments"
       url: "/admin/department_fields"
-      icon: "/images/admin-home/departments.svg"
+      icon: "/admin-home/departments.svg"
     department-fields:
       name: "Department Fields"
       url: "department_fields"
-      icon: "/images/admin-home/department-fields.svg"
+      icon: "/admin-home/department-fields.svg"
     ticket:
       name: "Tickets"
       url: "/helpdesk/tickets"
-      icon: "/images/itil/eob/tickets.svg"
+      icon: "/itil/eob/tickets.svg"
     billing:
       name: "Plans & Billing"
       url: "/subscription"
-      icon: "/images/admin-home/billing.svg"
+      icon: "/admin-home/billing.svg"
   smart_navigator_mapping:
     agents:
     - group
