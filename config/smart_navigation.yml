@@ -1,0 +1,77 @@
+freshservice:
+  modules:
+    agents:
+      name: "Agents"
+      url: "/agents"
+      icon: "/assets/admin-home/agent.svg"
+    requesters:
+      name: "Requesters"
+      url: "/itil/requesters/filter/all"
+      icon: "/assets/admin-home/requesters.svg"
+    business-hours:
+      name: "Business Hours"
+      url: "/admin/business_calendars"
+      icon: "/assets/admin-home/business-hours.svg"
+    group:
+      name: "Groups"
+      url: "/groups"
+      icon: "/assets/admin-home/group.svg"
+    user-fields:
+      name: "User Fields"
+      url: "/admin/user_fields"
+      icon: "/assets/admin-home/user-fields.svg"
+    roles:
+      name: "Roles"
+      url: "/admin/roles"
+      icon: "/assets/admin-home/role.svg"
+    departments:
+      name: "Departments"
+      url: "/admin/department_fields"
+      icon: "/assets/admin-home/departments.svg"
+    department-fields:
+      name: "Department Fields"
+      url: "department_fields"
+      icon: "/assets/admin-home/department-fields.svg"
+    ticket:
+      name: "Tickets"
+      url: "/helpdesk/tickets"
+      icon: "/assets/itil/eob/tickets.svg"
+    billing:
+      name: "Plans & Billing"
+      url: "/subscription"
+      icon: "/assets/admin-home/billing.svg"
+  smart_navigator_mapping:
+    agents:
+    - group
+    - user-fields
+    - roles
+    requester:
+    - group
+    - user-fields
+    - departments
+    departments:
+    - agents
+    - requesters
+    - department-fields
+    department_fields:
+    - departments
+    - requesters
+    - agents
+    roles:
+    - agents
+    - group
+    - ticket
+    day_pass:
+    - agents
+    - requesters
+    - billing
+    user_fields:
+    - agents
+    - requesters
+    cab:
+    - agents
+    - requesters
+    groups:
+    - agents
+    - requesters
+    - business-hours
